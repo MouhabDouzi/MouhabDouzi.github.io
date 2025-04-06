@@ -108,6 +108,45 @@ section h2:after {
     color: var(--secondary-color);
 }
 
+/* Progress Bars */
+.progress {
+    height: 0.8rem;
+    background-color: var(--light-bg);
+    border-radius: 0.4rem;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: var(--secondary-color);
+    transition: width 1s ease-in-out;
+}
+
+/* Project Links */
+.project-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.project-links .btn {
+    padding: 0.25rem 1rem;
+    font-size: 0.875rem;
+    transition: all 0.3s ease;
+}
+
+.project-links .btn:hover {
+    transform: translateY(-2px);
+}
+
+/* Skill Items */
+.skill-item {
+    margin-bottom: 1.5rem;
+}
+
+.skill-item span {
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero-section h1 {
@@ -120,6 +159,15 @@ section h2:after {
     
     section {
         padding: 3rem 0;
+    }
+    
+    .project-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .project-links .btn {
+        width: 100%;
     }
 }
 
