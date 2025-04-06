@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouhab Douzi - Resume</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --text-color: #333;
+            --light-bg: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .name {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .title {
+            font-size: 1.2rem;
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .contact-info a {
+            color: var(--text-color);
+            text-decoration: none;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .education-item, .project-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+        }
+
+        .item-title {
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .item-date {
+            color: var(--secondary-color);
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .skill-category {
+            margin-bottom: 1rem;
+        }
+
+        .skill-category h4 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        ul {
+            margin: 0;
+            padding-left: 1.5rem;
+        }
+
+        @media print {
+            body {
+                padding: 0;
+            }
+            
+            .contact-info a {
+                color: var(--text-color);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 class="name">Mouhab Douzi</h1>
+        <div class="title">Software Engineering Student | AI & ML Enthusiast</div>
+        <div class="contact-info">
+            <a href="mailto:mouhab.douzi01@gmail.com">mouhab.douzi01@gmail.com</a>
+            <span>+216 52 825 326</span>
+            <span>Tunis, Tunisia</span>
+        </div>
+        <div class="contact-info">
+            <a href="https://github.com/MouhabDouzi" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/mouhab-douzi" target="_blank">LinkedIn</a>
+            <a href="https://MouhabDouzi.github.io" target="_blank">Portfolio</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Education</h2>
+        <div class="education-item">
+            <div class="item-header">
+                <div class="item-title">MEDTECH (Mediterranean Institute of Technology)</div>
+                <div class="item-date">2023 - 2028</div>
+            </div>
+            <div>Software Engineering - 3+2 Double Degree Engineer-Manager Program</div>
+            <div>Partnership with HEC Montréal</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-item">
+            <div class="item-header">
+                <div class="item-title">TravelPlanner</div>
+                <div class="item-date">2024</div>
+            </div>
+            <ul>
+                <li>Developed a Flask and Vuetify-based website with filters for budget, weather, and user preferences</li>
+                <li>Implemented data-driven decision making for travelers</li>
+                <li>Technologies: Python, Flask, Vuetify, HTML, CSS, JavaScript</li>
+            </ul>
+        </div>
+        <div class="project-item">
+            <div class="item-header">
+                <div class="item-title">ISS1 Game</div>
+                <div class="item-date">2023</div>
+            </div>
+            <ul>
+                <li>Created an interactive Python-based game using fundamental programming concepts</li>
+                <li>Implemented logical design principles and user interaction</li>
+                <li>Technologies: Python</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h4>Programming</h4>
+                <ul>
+                    <li>Python</li>
+                    <li>Java (Advanced OOP)</li>
+                    <li>System Programming</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Web Development</h4>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Flask</li>
+                    <li>Vuetify</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Data Structures & Algorithms</h4>
+                <ul>
+                    <li>Arrays, Stacks, Queues</li>
+                    <li>Trees, Recursion</li>
+                    <li>Hashmaps</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Tools & Platforms</h4>
+                <ul>
+                    <li>Git, GitHub</li>
+                    <li>VS Code</li>
+                    <li>Google Colab</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Interests</h2>
+        <ul>
+            <li>Artificial Intelligence & Machine Learning</li>
+            <li>Data Science</li>
+            <li>Healthcare Technology</li>
+            <li>Financial Technology</li>
+            <li>Chess & Strategic Thinking</li>
+        </ul>
+    </div>
+</body>
+</html> 
