@@ -3,188 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mouhab Douzi - Software Engineering Student</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <title>Mouhab Douzi - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Mouhab Douzi</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <header class="hero-section">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-12 text-center">
-                    <h1 class="display-4">Mouhab Douzi</h1>
-                    <p class="lead">Software Engineering Student | AI & ML Enthusiast</p>
-                    <div class="social-links">
-                        <a href="https://github.com/MouhabDouzi" target="_blank"><i class="bi bi-github"></i></a>
-                        <a href="https://linkedin.com/in/mouhab-douzi" target="_blank"><i class="bi bi-linkedin"></i></a>
-                        <a href="mailto:mouhab.douzi01@gmail.com"><i class="bi bi-envelope"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="py-5">
+    <section id="hero">
         <div class="container">
-            <h2 class="text-center mb-4">About Me</h2>
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <p>I am a 23-year-old sophomore Software Engineering student at MEDTECH (Mediterranean Institute of Technology), pursuing a 3+2 double degree Engineer-Manager program in partnership with HEC Montréal. This unique academic path allows me to gain strong technical expertise while developing a deep understanding of business and entrepreneurship—key drivers of innovation in today's world.</p>
-                    <p>I am passionate about Artificial Intelligence, Machine Learning, and Data Science, and am curious about how these technologies can transform fields like healthcare, finance, and agriculture. While I have developed a strong foundation in theory, I remain eager to gain more practical experience through hands-on projects, collaborations, and real-world challenges.</p>
-                    <p>I am currently seeking internship opportunities for the summer of 2024 to apply my skills in a professional environment and continue my learning journey.</p>
-                </div>
+            <div class="profile-image">
+                <img src="photo1.jpg" alt="Mouhab Douzi">
+            </div>
+            <h1>Mouhab Douzi</h1>
+            <h2>Software Engineering Student</h2>
+            <p>Passionate about problem-solving and developing innovative solutions</p>
+            <div class="social-links">
+                <a href="https://github.com/MouhabDouzi" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mouhab-douzi/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:mouhab.douzi01@gmail.com"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="py-5 bg-light">
+    <section id="about">
         <div class="container">
-            <h2 class="text-center mb-4">Projects</h2>
-            <div class="row">
-                <div class="col-md-6 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">TravelPlanner</h5>
-                            <p class="card-text">A web application built with Flask and Vuetify that helps travelers make informed decisions based on budget, weather, and user preferences.</p>
-                            <div class="tech-stack">
-                                <span class="badge bg-primary">Flask</span>
-                                <span class="badge bg-primary">Vuetify</span>
-                                <span class="badge bg-primary">Python</span>
-                                <span class="badge bg-primary">HTML/CSS</span>
-                            </div>
-                            <div class="project-links mt-3">
-                                <a href="#" class="btn btn-outline-primary btn-sm">View Demo</a>
-                                <a href="#" class="btn btn-outline-secondary btn-sm">Source Code</a>
-                            </div>
-                        </div>
+            <h2>About Me</h2>
+            <p>I'm a Software Engineering student at MEDTECH (Mediterranean Institute of Technology), pursuing a 3+2 double degree Engineer-Manager program in partnership with HEC Montréal. I'm passionate about problem-solving and developing innovative solutions to complex challenges.</p>
+            <p>Currently seeking internship opportunities for summer 2025 to gain practical experience in software development.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>ISS1: Python Game - Floor is Lava</h3>
+                    <p>Interactive game implementing fundamental programming concepts where players navigate through challenging lava-filled levels.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Game Development</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/MouhabDouzi/ISS1-Game" target="_blank">GitHub</a>
+                        <a href="#" target="_blank">Demo</a>
                     </div>
                 </div>
-                <div class="col-md-6 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">ISS1 Game</h5>
-                            <p class="card-text">A Python-based interactive game that demonstrates fundamental programming concepts including object-oriented programming and game logic.</p>
-                            <div class="tech-stack">
-                                <span class="badge bg-primary">Python</span>
-                                <span class="badge bg-primary">OOP</span>
-                            </div>
-                            <div class="project-links mt-3">
-                                <a href="#" class="btn btn-outline-primary btn-sm">View Demo</a>
-                                <a href="#" class="btn btn-outline-secondary btn-sm">Source Code</a>
-                            </div>
-                        </div>
+                <div class="project-card">
+                    <h3>ISS2: TravelPlanner Website</h3>
+                    <p>Website that customizes trips based on user preferences, budget, and travel history.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Web Development</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/MouhabDouzi/TravelPlanner" target="_blank">GitHub</a>
+                        <a href="#" target="_blank">Demo</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="py-5">
+    <section id="skills">
         <div class="container">
-            <h2 class="text-center mb-4">Skills & Tools</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <h4>Programming Languages</h4>
-                    <ul class="list-unstyled skill-list">
-                        <li><i class="bi bi-check-circle-fill text-success"></i> Python</li>
-                        <li><i class="bi bi-check-circle-fill text-success"></i> Java</li>
-                        <li><i class="bi bi-check-circle-fill text-success"></i> C</li>
-                        <li><i class="bi bi-check-circle-fill text-success"></i> HTML/CSS</li>
-                        <li><i class="bi bi-check-circle-fill text-success"></i> JavaScript</li>
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C</li>
                     </ul>
                 </div>
-                <div class="col-md-6">
-                    <h4>Academic Background</h4>
-                    <ul class="list-unstyled skill-list">
-                        <li><i class="bi bi-check-circle-fill text-success"></i> Discrete Mathematics</li>
-                        <li><i class="bi bi-check-circle-fill text-success"></i> Circuit Design</li>
-                        <li><i class="bi bi-check-circle-fill text-success"></i> Data Structures</li>
-                        <li><i class="bi bi-check-circle-fill text-success"></i> Algorithms</li>
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Arabic (Native)</li>
+                        <li>English (Professional)</li>
+                        <li>French (High Proficiency)</li>
+                        <li>German (High Proficiency)</li>
                     </ul>
                 </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col-md-6">
-                    <h4>Frameworks & Libraries</h4>
-                    <ul class="list-unstyled skill-list">
-                        <li><i class="bi bi-check-circle-fill text-success"></i> Flask</li>
-                        <li><i class="bi bi-check-circle-fill text-success"></i> Vuetify</li>
-                        <li><i class="bi bi-check-circle-fill text-success"></i> Bootstrap</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <h4>Tools & Platforms</h4>
-                    <ul class="list-unstyled skill-list">
-                        <li><i class="bi bi-check-circle-fill text-success"></i> Git & GitHub</li>
-                        <li><i class="bi bi-check-circle-fill text-success"></i> VS Code</li>
-                        <li><i class="bi bi-check-circle-fill text-success"></i> Google Colab</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col-md-6">
-                    <h4>Areas of Interest</h4>
-                    <ul class="list-unstyled skill-list">
-                        <li><i class="bi bi-check-circle-fill text-success"></i> Artificial Intelligence</li>
-                        <li><i class="bi bi-check-circle-fill text-success"></i> Machine Learning</li>
-                        <li><i class="bi bi-check-circle-fill text-success"></i> Data Science</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <h4>Languages</h4>
-                    <ul class="list-unstyled skill-list">
-                        <li><i class="bi bi-check-circle-fill text-success"></i> English (Professional)</li>
-                        <li><i class="bi bi-check-circle-fill text-success"></i> Arabic (Native)</li>
-                        <li><i class="bi bi-check-circle-fill text-success"></i> French (Intermediate)</li>
+                <div class="skill-category">
+                    <h3>Academic Background</h3>
+                    <ul>
+                        <li>Data Structures & Algorithms</li>
+                        <li>Object-Oriented Programming</li>
+                        <li>Discrete Mathematics</li>
+                        <li>Circuit Design</li>
+                        <li>Problem Solving</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-5 bg-light">
+    <section id="contact">
         <div class="container">
-            <h2 class="text-center mb-4">Contact Me</h2>
-            <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                    <p><i class="bi bi-envelope"></i> <a href="mailto:mouhab.douzi01@gmail.com">mouhab.douzi01@gmail.com</a></p>
-                    <p><i class="bi bi-phone"></i> +216 52 825 326</p>
-                    <p><i class="bi bi-geo-alt"></i> Tunis, Tunisia</p>
-                </div>
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me for any inquiries or opportunities!</p>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> <a href="mailto:mouhab.douzi01@gmail.com">mouhab.douzi01@gmail.com</a></p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/mouhab-douzi/" target="_blank">LinkedIn</a></p>
+                <p><i class="fab fa-github"></i> <a href="https://github.com/MouhabDouzi" target="_blank">GitHub</a></p>
             </div>
         </div>
     </section>
 
-    <footer class="py-4 bg-dark text-white text-center">
+    <footer>
         <div class="container">
-            <p class="mb-0">&copy; 2024 Mouhab Douzi. All rights reserved.</p>
+            <p>&copy; 2024 Mouhab Douzi. All rights reserved.</p>
         </div>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html> 

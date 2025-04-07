@@ -1,0 +1,109 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --text-color: #333;
+    --light-bg: #f8f9fa;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.letter {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.contact-info a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: var(--secondary-color);
+}
+
+.date {
+    text-align: right;
+    margin-bottom: 2rem;
+}
+
+.recipient {
+    margin-bottom: 2rem;
+}
+
+.greeting {
+    margin-bottom: 1.5rem;
+}
+
+.body {
+    margin-bottom: 2rem;
+}
+
+.body p {
+    margin-bottom: 1rem;
+}
+
+.closing {
+    margin-top: 3rem;
+}
+
+.signature {
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+@media print {
+    body {
+        background-color: white;
+    }
+    
+    .container {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .letter {
+        box-shadow: none;
+        padding: 0;
+    }
+    
+    .contact-info a {
+        color: var(--text-color);
+    }
+} 
