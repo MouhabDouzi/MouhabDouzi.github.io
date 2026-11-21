@@ -1,54 +1,43 @@
 # Mouhab Douzi - Portfolio Website
 
-Welcome to my personal portfolio website! This repository contains the source code for my professional portfolio website, showcasing my skills, projects, and experience in software engineering and data science.
+Live site: https://mouhabdouzi.github.io/
+
+Source code of my personal portfolio, showcasing my research, projects, experience and skills in software engineering, machine learning and quantitative finance.
+
+## Sections
+
+- About, education and the MEDTECH / HEC Montréal preparatory track
+- Research & Publications (two SSRN working papers)
+- Featured projects (World Cup 2026 Predictor, CAPTCHA Breaker, TravelPlanner, Floor is Lava)
+- Skills, professional experience (Talan Tunisie, KPIT, Prodigy InfoTech)
+- Certificates, test scores and achievements
+- Contact
 
 ## Features
 
-- Modern, responsive design
-- Interactive project showcase
-- Skills and experience presentation
-- Contact form
-- Dark/Light mode toggle
-- Mobile-friendly layout
+- Responsive, mobile-friendly layout
+- Dark/Light mode toggle (remembered between visits)
+- Scroll animations and smooth navigation
 
-## Getting Started
+## Run locally
 
-1. Clone the repository:
 ```bash
 git clone https://github.com/MouhabDouzi/MouhabDouzi.github.io.git
+cd MouhabDouzi.github.io
 ```
 
-2. Open `index.html` in your web browser to view the website locally.
-
-## Customization
-
-- Update `index.html` to modify content
-- Edit `styles.css` to change the design
-- Add your own projects in the projects section
-- Update the contact information
+Open `index.html` in your browser.
 
 ## Deployment
 
-This website is automatically deployed to GitHub Pages. Any changes pushed to the main branch will be reflected on the live site.
+The site is deployed with GitHub Pages. Any change pushed to the `main` branch is published at https://mouhabdouzi.github.io/ within a minute or two.
 
-## Technologies Used
+## Built with
 
-- HTML5
-- CSS3
-- JavaScript
-- Font Awesome
-- Google Fonts
-
-## Contributing
-
-Feel free to fork this repository and use it as a template for your own portfolio. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+HTML5, CSS3, vanilla JavaScript, AOS (scroll animations), Font Awesome, Google Fonts (Poppins)
 
 ## Contact
 
-- Email: [Your Email]
-- LinkedIn: [Your LinkedIn Profile]
-- GitHub: [Your GitHub Profile]
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+- Email: mouhab.douzi01@gmail.com
+- LinkedIn: https://www.linkedin.com/in/mouhab-douzi-5b507829a
+- GitHub: https://github.com/MouhabDouzi
